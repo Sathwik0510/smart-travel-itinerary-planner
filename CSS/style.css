@@ -137,4 +137,75 @@ footer {
 #about ul {
   margin-left: 20px;
 }
+/* Contact Page */
+#contact {
+  padding: 60px 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  margin-top: 15px;
+}
+
+#contact input,
+#contact textarea {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+#contact button {
+  margin-top: 20px;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/* Itinerary Preview */
+.itinerary-preview {
+  margin-top: 40px;
+}
+
+.day-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  #features {
+    flex-direction: column;
+  }
+
+  #features div {
+    width: 100%;
+  }
+
+  .planner-form {
+    width: 100%;
+  }
+}
+
 
