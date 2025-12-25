@@ -91,3 +91,35 @@ footer {
   border-radius: 5px;
   font-weight: bold;
 }
+/* Planner Page */
+#planner {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.planner-form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.planner-form label {
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.planner-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.planner-form button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
