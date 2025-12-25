@@ -63,3 +63,31 @@ footer {
   text-align: center;
   padding: 15px;
 }
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #eef6ff;
+}
+
+#hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+}
